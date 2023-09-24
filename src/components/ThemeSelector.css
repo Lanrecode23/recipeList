@@ -1,0 +1,22 @@
+.ThemeSelectors{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    max-width: 1200px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.theme-buttons div{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 1em;
+    cursor: pointer;
+}
+
+@media screen  and (max-width: 768px){
+    .ThemeSelectors{
+        display: block;
+    }
+}

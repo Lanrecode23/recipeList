@@ -1,0 +1,55 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&family=Roboto&display=swap');
+
+.card{
+    transition: all .3s ease-in;
+    
+}
+.card:hover{
+    transition: all .3s ease-in-out;
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+.card-text{
+    font-size: 15px!important;
+}
+.title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 25px;
+    color: rgb(72, 115, 243);
+}
+.line{
+    background-color: rgb(72, 115, 243);
+    width: 100px;
+    height: 3px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.surround, .method{
+    width: 75%!important;
+}
+/* dark mode */
+.card.dark p , .card.dark h5{
+    color: white!important;
+}
+.card.dark{
+    background: #555!important;
+}
+.surround.dark h3, .surround.dark p, .surround.dark ul li{
+    color: white!important;
+} 
+.surround.dark div{
+    background: white!important;
+}
+.surround.dark{
+    background: #555!important;
+}
+@media (max-width: 768px) {
+    .method{
+        width: 100% !important;;
+    }
+    .surround{
+        width: 100%!important;
+    }
+}

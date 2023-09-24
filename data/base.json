@@ -1,0 +1,69 @@
+{
+  "recipes": [
+    {
+      "id": "1",
+      "title": "Veggie Stew",
+      "ingredients": [
+        "1 Carrot",
+        "2 Green beans",
+        "200g Tofu",
+        "300ml Veg Oil"
+      ],
+      "methods": "Heat the olive oil in a large pot or Dutch oven over medium heat.\nAdd the chopped onion and garlic and sauté for a few minutes until they become fragrant and translucent.\nAdd the carrots, potatoes, celery, and bell pepper to the pot. Sauté for another 5-7 minutes, stirring occasionally until the vegetables start to soften.\nStir in the zucchini and green beans. Continue to cook for an additional 2-3 minutes.\nPour in the diced tomatoes (with their juice) and add the dried thyme and rosemary. Stir to combine.",
+      "time": "45 minutes"
+    },
+    {
+      "id": "2",
+      "title": "Beef Stew",
+      "ingredients": [
+        "500g Beef",
+        "3 Potatoes",
+        "2 Carrots",
+        "1 Onion",
+        "4 cups Beef Broth"
+      ],
+      "methods": "In a large pot, heat some oil over medium-high heat.\nAdd the beef and brown it on all sides. Remove from the pot and set aside.\nAdd onions and carrots to the pot, cooking until they soften.\nReturn the beef to the pot, add potatoes, and pour in the beef broth.\nSimmer for about 2 hours or until the beef is tender. Season to taste.",
+      "time": "2 hours 30 minutes"
+    },
+    {
+      "id": "3",
+      "title": "Chicken Stew",
+      "ingredients": [
+        "4 Chicken Thighs",
+        "2 Potatoes",
+        "2 Carrots",
+        "1 Onion",
+        "3 cups Chicken Broth"
+      ],
+      "methods": "Heat some oil in a large pot over medium heat.\nAdd chicken thighs and brown them. Remove from the pot and set aside.\nIn the same pot, sauté onions and carrots until they soften.\nReturn the chicken to the pot, add potatoes, and pour in the chicken broth.\nSimmer for about 30-40 minutes or until chicken is cooked through. Season to taste.",
+      "time": "1 hour"
+    },
+    {
+      "id": "4",
+      "title": "Vegetable Stew",
+      "ingredients": [
+        "2 Potatoes",
+        "2 Carrots",
+        "1 Onion",
+        "1 Zucchini",
+        "1 Red Bell Pepper",
+        "4 cups Vegetable Broth"
+      ],
+      "methods": "Heat some oil in a large pot over medium heat.\nSauté onions, carrots, and potatoes until they begin to soften.\nAdd zucchini and red bell pepper and continue to cook for a few minutes.\nPour in vegetable broth and simmer for about 20-30 minutes until vegetables are tender. Season to taste.",
+      "time": "45 minutes"
+    },
+    {
+      "id": "5",
+      "title": "Lentil Stew",
+      "ingredients": [
+        "1 cup Lentils",
+        "1 Onion",
+        "2 Carrots",
+        "2 Celery Stalks",
+        "4 cups Vegetable Broth"
+      ],
+      "methods": "In a large pot, sauté onions, carrots, and celery until they soften.\nAdd lentils and vegetable broth, then simmer for about 30-40 minutes until lentils are tender. Season to taste.",
+      "time": "1 hour"
+    }
+  ]
+}
