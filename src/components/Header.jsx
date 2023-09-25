@@ -31,7 +31,7 @@ function Header() {
         <Container fluid>
           <Navbar.Brand as={Link} to="/" className="text-white logo ms-lg-5 ">Recipe</Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
-          <div className="pt-2 mx-5"><ThemeSelector/></div>
+          <div className="pt-2 mx-5 d-none d-md-inline-block"><ThemeSelector/></div>
           <Navbar.Collapse id="navbarScroll">
             <Nav
               className="ms-auto my-2 my-lg-0 navlink ms-5"

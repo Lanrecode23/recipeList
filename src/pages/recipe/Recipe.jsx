@@ -15,13 +15,13 @@ function Recipe() {
       {error && <div>{error}</div>}
       {loading && <div>Loading...</div>}
       {data && (
-      <div className={`container surround mt-5 text-center d-flex flex-column shadow-lg p-5 mb-3 bg-body-tertiary rounded ${mode}`}>
+      <div className={`container surround text-center d-flex flex-column shadow-lg p-5 mb-3 bg-body-tertiary rounded ${mode}`}>
       <h3 className='title'>{data.title}</h3>
       <div className='line'></div>
       <p className='fst-italic'>Takes {data.time} to cook</p>
       <ul className='list-unstyled fst-italic text-sm' style={{fontSize:'14px'}}>
         {data.ingredients.map((ingredient)=>(
-          <li>{ingredient}</li>
+          <li key={ingredient}>{ingredient}</li>
         ))}
       </ul>
       <p className='w-75 m-auto method fst-italic'>{data.methods}</p>

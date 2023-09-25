@@ -1,7 +1,8 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import "./Create.css";
 import Usefetch from "../../hooks/Usefetch";
 import { useNavigate } from "react-router-dom";
+import { Themecontext } from "../../context/Themecontext";
 
 
 function Create() {
@@ -22,6 +23,8 @@ function Create() {
     handleDirect();
   };
 
+  // get the mode 
+  const {mode} = useContext(Themecontext)
   
   const handleAdd = (e) => {
     e.preventDefault();
@@ -39,11 +42,10 @@ function Create() {
   }
 
   return (
-    <section class="section_form">
+    <section className={`section_form mt-5 ${mode}`}>
       <h3 className="text-center add fw-semibold">Add a New Recipe</h3>
       <form
-        className="consultation-form"
-        class="feed-form"
+        className="consultation-form feed-form"
         action="#"
         onSubmit={handleSubmit}
       >
@@ -94,7 +96,7 @@ function Create() {
           onChange={(e) => setTime(e.target.value)}
           
         />
-        <button className="btn btn-primary p-2 " type="submit">
+        <button className="btn btn-primary p-2 mb-3" type="submit">
           SUBMIT
         </button>
       </form>

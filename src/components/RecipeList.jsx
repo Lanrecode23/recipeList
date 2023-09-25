@@ -8,7 +8,7 @@ function RecipeList({ recipe }) {
   const {mode} = useContext(Themecontext)
   return (
     <div>
-      <div className="container">
+      <div className="container mt-5 mb-3 ">
         <div className="row">
           {recipe.map((recipe) => (
             <div className="col-lg-4 col-md-6 col-sm-12 mb-4" key={recipe.id}>

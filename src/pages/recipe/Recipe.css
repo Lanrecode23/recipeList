@@ -29,6 +29,7 @@
 .surround, .method{
     width: 75%!important;
 }
+
 /* dark mode */
 .card.dark p , .card.dark h5{
     color: white!important;
@@ -41,6 +42,9 @@
 } 
 .surround.dark div{
     background: white!important;
+}
+.surround{
+    margin: 8em auto!important;
 }
 .surround.dark{
     background: #555!important;

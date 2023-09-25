@@ -1,0 +1,15 @@
+.icons img{
+    width: 25px !important;
+    transition: all .3s ease-in-out;
+    margin-left: 1em;
+}
+.footer{
+    display: flex;
+    justify-content: center!important;
+    background: #58249c;
+    padding: 0.5rem;
+    align-items: center!important;
+}
+.icons img:hover{
+    transform:translateY(-2px)
+}
