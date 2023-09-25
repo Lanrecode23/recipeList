@@ -15,9 +15,9 @@ function Search() {
        {error && <div>{error}</div>}
       {loading && <div>Loading...</div>}
       {data && data.length===0 ? 
-        <h5 className='text-center mt-5 fst-italic text-danger'>No recipe Found</h5>
+        <h5 className='text-center fst-italic text-danger' style={{margin:'15em'}}>No recipe Found</h5>
         : data &&(
-          <div>
+          <div style={{margin:'10em 0 16em 0'}}>
             <RecipeList recipe= {data}/>
           </div>
         )

@@ -40,7 +40,7 @@ function Header() {
             >
             </Nav>
             <button onClick={handleclick}className=" m-auto button mb-lg-0 mb-3">Create Recipe</button>
-            <Form className="d-flex mx-lg-auto " onSubmit={handleSubmit}>
+            <Form className="d-flex mx-lg-auto" onSubmit={handleSubmit}>
               <Form.Control
                 type="search"
                 placeholder="Search"
