@@ -5,7 +5,6 @@ import Create from './pages/create/Create';
 import Search from './pages/search/Search';
 import Recipe from './pages/recipe/Recipe';
 import Header from './components/Header';
-import ThemeSelector from './components/ThemeSelector';
 import './App.css';
 import { useContext } from 'react';
 import { Themecontext } from './context/Themecontext';

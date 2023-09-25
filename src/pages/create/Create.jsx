@@ -14,7 +14,7 @@ function Create() {
 
   const navigate = useNavigate()
 
-  const { optionData} = Usefetch("http://localhost:3000/recipes" , "POST");
+  const { optionData} = Usefetch("https://www.themealdb.com/api/json/v1/1/" , "POST");
 
   // function to handle the form submission
   const handleSubmit = (e) => {
