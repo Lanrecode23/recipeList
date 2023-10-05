@@ -7,12 +7,10 @@ import './Home.css';
 
 function Home() {
   const { data, loading, error } = Usefetch('http://localhost:3000/recipes');
-  const { changeColor } = useContext(Themecontext);
+  const { changeColor, mode } = useContext(Themecontext);
   const themeColor = ["#58249c", "#249c6b", "#b70333"];
   return (
    <>
-      {error && <div>{error}</div>}
-      {loading && <div>Loading...</div>}
       <Hero/>
       <div className='ThemeSelectors'>
         <div className="theme-buttons">
@@ -23,6 +21,8 @@ function Home() {
         })}
         </div>
       </div>
+      {error && <div className={`text-center mb-2 mt-5 error fw-semibold ${mode}`}>{error}</div>}
+      {loading && <div className={`text-center mb-5 error fw-semibold ${mode} `}>Loading...</div>}
       {data && <RecipeList recipe={data}/>}
     </>
   );
