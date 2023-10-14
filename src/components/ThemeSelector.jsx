@@ -9,7 +9,7 @@ function ThemeSelector() {
   const toggle = () => {
     changeMode(mode === "light" ? "dark" : "light");
   };
-  console.log(mode);
+ 
 
   return (
     <div className="ThemeSelectors">
